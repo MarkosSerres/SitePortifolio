@@ -162,6 +162,13 @@ header ul li a{
     position: absolute;
 }
 
+.primeiro__conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .primeiro__conteudo__nome{
     color: #FFFFFF;
     font-size: 200px;
@@ -176,12 +183,13 @@ header ul li a{
 
 .primeiro__conteudo__frase{
     color:#CFCFCF;
-    font-size: 33px;
+    font-size: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: FonteTexto;
     position: relative;
+    word-spacing: -2px;
     z-index: 2;
 }
 
