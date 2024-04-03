@@ -255,6 +255,15 @@ header ul li a{
     margin-bottom: 0px;
 }
 
+.container__terceiro__titulo{
+    font-family: FonteTexto;
+    font-size: 70px;
+}
+
+.container__terceiro__descricao{
+    font-family: FonteTexto;
+}
+
 .principal__baixo{
     display: flex;
     flex-direction: column;
@@ -263,4 +272,19 @@ header ul li a{
     align-content: flex-end;
     position: relative;
     z-index: 2;
+}
+
+.principal__baixo__descricao{
+    font-family: FonteTexto;
+    font-size: 15px;
+    opacity: 20%;
+}
+
+.principal__baixo__cordenadas{
+    font-family: FonteTexto;
+    font-size: 15px;
+    opacity: 20%;
+}
+.principal__baixo__cordenadas:hover{
+    opacity: 60%;
 }
