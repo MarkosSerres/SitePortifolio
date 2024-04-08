@@ -296,7 +296,7 @@ header ul li a{
     opacity: 60%;
 }
 
-@media (max-width: 771px){
+@media (max-width: 1001px){
     .cabecalho__flex__icone{
         font-size: 1.4rem;
     }
@@ -338,7 +338,7 @@ header ul li a{
         font-size: 5rem;
     }
     .primeiro__conteudo__frase{
-        font-size: 0.9rem;
+        font-size: 1.0rem;
     }
     .descricao__titulo{
         font-size: 3rem;
@@ -360,9 +360,76 @@ header ul li a{
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        font-size: .6rem;
+        font-size: .7rem;
     }
     .container__cabecalho__itens li{
         margin: 0 13px;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .cabecalho__flex {
+      display: none;
+    }
+    .primeiro__conteudo__nome{
+        font-size: 3.6rem;
+    }
+    .primeiro__conteudo__frase{
+        font-size: 0.8rem;
+    }
+    .descricao__titulo{
+        font-size: 2.5rem;
+        margin-top: -30rem;
+    }
+    .secundario__imagem{
+        margin-top: -25rem;
+    }
+  }
+
+  @media only screen and (max-width: 446px) {
+    .primeiro__conteudo__nome{
+        font-size: 2.6rem;
+    }
+    .primeiro__conteudo__frase{
+        font-size: 0.7rem;
+    }
+    .descricao__titulo{
+        font-size: 2.1rem;
+        margin-top: -32rem;
+    }
+    .secundario__imagem{
+        margin-top: -28rem;
+    }
+  }
+
+  @media only screen and (max-width: 371px) {
+    .primeiro__conteudo__nome{
+        font-size: 1.8rem;
+    }
+    .primeiro__conteudo__frase{
+        font-size: 0.58rem;
+    }
+    .descricao__titulo{
+        font-size: 1.9rem;
+        margin-top: -34rem;
+    }
+    .secundario__imagem{
+        margin-top: -30rem;
+    }
+  }
+
+  @media only screen and (max-width: 308px) {
+    .primeiro__conteudo__nome{
+        font-size: 1.5rem;
+    }
+    .primeiro__conteudo__frase{
+        font-size: 0.52rem;
+    }
+    .descricao__titulo{
+        font-size: 1.7rem;
+        margin-top: -36rem;
+    }
+    .secundario__imagem{
+        margin-top: -32rem;
+    }
+  }
